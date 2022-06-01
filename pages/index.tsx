@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
+import Sidebar from '../components/sidebar'
 
 const Home: NextPage = () => {
   return (
     <div className="">
-      <h1>ola</h1>
       <main>
-        {/*Sidebar*/}
+        <Sidebar />
         {/*Center*/}
       </main>
 
